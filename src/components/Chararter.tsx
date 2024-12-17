@@ -48,7 +48,7 @@ export const Chararter = () => {
                 <Pagination
                     count={Math.ceil(total / limit)}
                     page={page}
-                    onChange={handlePageChange}
+                    onChange={tapa}
                     color="primary"
                     className="mt-3"
                 />
